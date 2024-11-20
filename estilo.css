@@ -1,0 +1,85 @@
+/* Archivo: estilo.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/marron.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+#presentacion {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#presentacion h2 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+#presentacion p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#presentacion button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #00ff0d;
+    background-color: #3700ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#presentacion button:hover {
+    background-color: #ff00d4;
+}
+/* Estilo para el contenedor que agrupa la imagen y el texto */
+.texto-imagen {
+    display: flex;             /* Usamos Flexbox para alinear el texto y la imagen */
+    align-items: center;       /* Alineamos verticalmente los elementos */
+}
+
+/* Estilo para el recuadro transparente alrededor de la imagen */
+.imagen-contenedor {
+    background-color: rgba(255, 255, 255, 0);  /* Fondo transparente */
+    padding: 10px;                              /* Espaciado alrededor de la imagen */
+    margin-left: 20px;                          /* Separación entre el texto y la imagen */
+}
+
+/* Ajuste de la imagen */
+.imagen-contenedor img {
+    max-height: 300px;  /* Limita la altura de la imagen */
+    width: auto;        /* Mantiene las proporciones de la imagen */
+}
